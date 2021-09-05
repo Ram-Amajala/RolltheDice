@@ -18,6 +18,9 @@ var s=p2.length;
 pl1=p1.slice(0,1).toUpperCase() + p1.slice(1,t).toLowerCase();
 pl2=p2.slice(0,1).toUpperCase() + p2.slice(1,s).toLowerCase();
 
+document.querySelector("#pr1").innerHTML= pl1;
+document.querySelector("#pr2").innerHTML= pl2;
+
 if (i === j) {
   document.querySelector("h1").innerHTML = "🚩 Draw! 🚩";
   document.querySelector("h1").classList.add("font");

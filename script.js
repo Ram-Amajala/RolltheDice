@@ -16,7 +16,7 @@ var t=p1.length;
 var s=p2.length;
 
 pl1=p1.slice(0,1).toUpperCase() + p1.slice(1,t).toLowerCase();
-pl2=p2.slice(0,1).toUpperCase() + p1.slice(1,s).toLowerCase();
+pl2=p2.slice(0,1).toUpperCase() + p2.slice(1,s).toLowerCase();
 
 if (i === j) {
   document.querySelector("h1").innerHTML = "🚩 Draw! 🚩";

@@ -10,13 +10,21 @@ var im2 = "dice" + j + ".png";
 var ima2 = "images/" + im2;
 document.querySelector(".img2").setAttribute("src", ima2);
 
+var p1=prompt("Enter Player 1 name ");
+var p2=prompt("Enter Player 2 name ");
+var t=p1.length;
+var s=p2.length;
+
+pl1=p1.slice(0,1).toUpperCase() + p1.slice(1,t).toLowerCase();
+pl2=p2.slice(0,1).toUpperCase() + p1.slice(1,s).toLowerCase();
+
 if (i === j) {
   document.querySelector("h1").innerHTML = "🚩 Draw! 🚩";
   document.querySelector("h1").classList.add("font");
 } else if (i > j) {
-  document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
+  document.querySelector("h1").innerHTML = "🚩 " + pl1 + " Wins!";
   document.querySelector("h1").classList.add("font");
 } else if (i < j) {
-  document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
+  document.querySelector("h1").innerHTML = pl2 + " Wins! 🚩";
   document.querySelector("h1").classList.add("font");
 }

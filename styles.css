@@ -1,28 +1,22 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-
 .dice {
   text-align: center;
   display: inline-block;
 }
 
 .font {
-  font-family: 'Lobster', fantasy;
+  font-family: 'Allison', fantasy;
   font-weight: normal;
   font-size: 7rem;
 }
 
 body {
-  background-color: #D9AFD9;
-  background-image: linear-gradient(180deg, #D9AFD9 0%, #97D9E1 100%);
+  /* background-color: #D9AFD9; */
+  background-color: #97D9E1;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Allison', cursive;
+  font-family: 'Allison', serif;
   text-shadow: 2px 0 #2BF931;
   font-size: 8rem;
   color: #3E00FF;
@@ -38,6 +32,18 @@ p {
 
 img {
   width: 80%;
+}
+
+.img1 {
+  width: 205px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.img2 {
+  width: 205px;
+  height: auto;
+  margin-left: 30px;
 }
 
 footer {
